@@ -19,6 +19,10 @@ if not is_number(a) or not is_number(b)
 
 c = a + b
 #suma varibles
-
 console.log 'La suma entre a y b es:', c
 #console=objeto=propiedades(valor) o metodos(función) y .log es el metodo para imprimir en la consola.
+
+if c>50
+	console.log  c, 'es mayor a 50' 
+
+
